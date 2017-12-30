@@ -70,22 +70,17 @@ function buildFlightData(flights) {
     airportsVisited.add(flight.departureAirport);
     airportsVisited.add(flight.arrivalAirport);
   });
-
-  // paths.forEach((flights, path) => {
-  //   console.log(path, flights);
-  // });
 }
 
 function plotAirports(airports) {
   airports.forEach(airport => {
     const info = airportInfo.get(airport);
     const marker = new google.maps.Marker({
+      map,
       position: getAirportLatLng(airport),
-      map: map,
       title: `${info.properties.abbrev} - ${info.properties.name}`
     });
     airportMarkers.set(airport, marker);
-    // console.log(marker);
   })
 }
 
@@ -104,6 +99,7 @@ function plotPaths(paths) {
     const numFlights = path.length + (paths.has(reversePath(key)) ? paths.get(reversePath(key)).length : 0);
 
     const flightPath = new google.maps.Polyline({
+      map,
       path: [getAirportLatLng(depAirport), getAirportLatLng(arrAirport)],
       geodesic: true,
       strokeColor: '#2c3e50',
@@ -113,8 +109,6 @@ function plotPaths(paths) {
         offset: '100%'
       }],
     });
-
-    flightPath.setMap(map);
 
     flightPath.addListener('click', () => {
       displayFlights(key);
