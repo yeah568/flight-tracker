@@ -116,24 +116,30 @@ function plotPaths(paths) {
 
     flightPath.setMap(map);
 
-    animateCircle(flightPath);
-
     flightPath.addListener('click', () => {
       displayFlights(key);
     });
     pathPolylines.set(key, flightPath);
   });
+
+  window.requestAnimationFrame(animateCircles);
 }
 
-function animateCircle(line) {
-    let count = 0;
-    window.setInterval(function() {
-      count = (count + 1) % 100;
+let start = null;
+const interval = 2500; //ms
 
-      let icons = line.get('icons');
-      icons[0].offset = count + '%';
-      line.set('icons', icons);
-  }, 30);
+function animateCircles(timestamp) {
+  if (!start) {start = timestamp};
+
+  const offset = ((timestamp - start) % interval) / interval * 100;
+
+  pathPolylines.forEach(line => {
+    let icons = line.get('icons');
+    icons[0].offset = offset + '%';
+    line.set('icons', icons);
+  });
+
+  window.requestAnimationFrame(animateCircles);
 }
 
 // ===== Sidebar display =====
