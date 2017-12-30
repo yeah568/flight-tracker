@@ -1,0 +1,411 @@
+[
+  {
+    "airline": "OZ",
+    "number": "271",
+    "departureTimestamp": "Jul 11 2010 2:45PM",
+    "departureAirport": "SEA",
+    "arrivalTimestamp": "Jul 12 2010 5:50PM",
+    "arrivalAirport": "ICN",
+    "plane": "777"
+  }, {
+    "airline": "OZ",
+    "number": "367",
+    "departureTimestamp": "Jul 12 2010 8:00PM",
+    "departureAirport": "ICN",
+    "arrivalTimestamp": "Jul 12 2010 8:55PM",
+    "arrivalAirport": "PVG",
+    "plane": "A321"
+  }, {
+    "airline": "OZ",
+    "number": "362",
+    "departureTimestamp": "Sep 4 2010 12:00PM",
+    "departureAirport": "PVG",
+    "arrivalTimestamp": "Sep 4 2010 2:50PM",
+    "arrivalAirport": "ICN",
+    "plane": "777"
+  }, {
+    "airline": "OZ",
+    "number": "272",
+    "departureTimestamp": "Sep 4 2010 6:40PM",
+    "departureAirport": "ICN",
+    "arrivalTimestamp": "Sep 4 2010 12:30PM",
+    "arrivalAirport": "SEA",
+    "plane": "777"
+  }, {
+    "airline": "AC",
+    "number": "854",
+    "departureTimestamp": "Jul 8 2011 6:15PM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Jul 9 2011 11:25AM",
+    "arrivalAirport": "LHR"
+  }, {
+    "airline": "BA",
+    "number": "548",
+    "departureTimestamp": "Jul 20 2011 9:10AM",
+    "departureAirport": "LHR",
+    "arrivalTimestamp": "Jul 20 2011 12:40PM",
+    "arrivalAirport": "FCO"
+  }, {
+    "airline": "AC",
+    "number": "827",
+    "departureTimestamp": "Aug 2 2011 12:00PM",
+    "departureAirport": "ATH",
+    "arrivalTimestamp": "Aug 2 2011 3:45PM",
+    "arrivalAirport": "YYZ"
+  }, {
+    "airline": "AC",
+    "number": "151",
+    "departureTimestamp": "Aug 2 2011 10:55PM",
+    "departureAirport": "YYZ",
+    "arrivalTimestamp": "Aug 3 2012 12:53AM",
+    "arrivalAirport": "YVR"
+  }, {
+    "airline": "UA",
+    "number": "664",
+    "departureTimestamp": "Oct 31 2015 6:45AM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Oct 31 2015 12:44PM",
+    "arrivalAirport": "ORD",
+    "plane": "A320"
+  }, {
+    "airline": "UA",
+    "number": "397",
+    "departureTimestamp": "Oct 31 2015 2:10PM",
+    "departureAirport": "ORD",
+    "arrivalTimestamp": "Oct 31 2015 5:51PM",
+    "arrivalAirport": "TPA",
+    "plane": "A320"
+  }, {
+    "airline": "UA",
+    "number": "1948",
+    "departureTimestamp": "Nov 4 2015 3:09PM",
+    "departureAirport": "TPA",
+    "arrivalTimestamp": "Nov 4 2015 4:35PM",
+    "arrivalAirport": "IAH",
+    "plane": "737-800"
+  }, {
+    "airline": "UA",
+    "number": "1597",
+    "departureTimestamp": "Nov 4 2015 5:53PM",
+    "departureAirport": "IAH",
+    "arrivalTimestamp": "Nov 4 2015 8:59PM",
+    "arrivalAirport": "YVR",
+    "plane": "737-900"
+  }, {
+    "airline": "WS",
+    "number": "1882",
+    "departureTimestamp": "Nov 26 2015 5:30PM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Nov 26 2015 10:00PM",
+    "arrivalAirport": "KOA",
+    "plane": "737"
+  }, {
+    "airline": "WS",
+    "number": "1883",
+    "departureTimestamp": "Nov 30 2015 10:55PM",
+    "departureAirport": "KOA",
+    "arrivalTimestamp": "Dec 1 2015 6:48AM",
+    "arrivalAirport": "YVR",
+    "plane": "737"
+  }, {
+    "airline": "AC",
+    "number": "025",
+    "departureTimestamp": "Dec 19 2015 12:20PM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Dec 20 2015 4:20PM",
+    "arrivalAirport": "PVG",
+    "plane": "787-8"
+  }, {
+    "airline": "AC",
+    "number": "026",
+    "departureTimestamp": "Jan 3 2016 5:50PM",
+    "departureAirport": "PVG",
+    "arrivalTimestamp": "Jan 3 2016 12:15PM",
+    "arrivalAirport": "YVR",
+    "plane": "787-8"
+  }, {
+    "airline": "AC",
+    "number": "116",
+    "departureTimestamp": "Jan 14 2016 10:00AM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Jan 14 2016 5:25PM",
+    "arrivalAirport": "YYZ",
+    "plane": "A320-200"
+  }, {
+    "airline": "AC",
+    "number": "033",
+    "departureTimestamp": "Jan 18 2016 8:05PM",
+    "departureAirport": "YYZ",
+    "arrivalTimestamp": "Jan 18 2016 10:15PM",
+    "arrivalAirport": "YVR",
+    "plane": "777-200LR"
+  }, {
+    "airline": "DL",
+    "number": "5719",
+    "departureTimestamp": "Mar 17 2016 9:55AM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Mar 17 2016 10:57AM",
+    "arrivalAirport": "SEA"
+  }, {
+    "airline": "DL",
+    "number": "5859",
+    "departureTimestamp": "Mar 17 2016 12:40PM",
+    "departureAirport": "SEA",
+    "arrivalTimestamp": "Mar 17 2016 2:37PM",
+    "arrivalAirport": "SFO"
+  }, {
+    "airline": "DL",
+    "number": "1168",
+    "departureTimestamp": "Mar 21 2016 6:03AM",
+    "departureAirport": "SFO",
+    "arrivalTimestamp": "Mar 21 2016 8:45AM",
+    "arrivalAirport": "SLC"
+  }, {
+    "airline": "DL",
+    "number": "1064",
+    "departureTimestamp": "Mar 21 2016 9:28AM",
+    "departureAirport": "SLC",
+    "arrivalTimestamp": "Mar 21 2016 10:31AM",
+    "arrivalAirport": "SEA"
+  }, {
+    "airline": "DL",
+    "number": "5792",
+    "departureTimestamp": "Mar 21 2016 12:12PM",
+    "departureAirport": "SEA",
+    "arrivalTimestamp": "Mar 21 2016 1:08AM",
+    "arrivalAirport": "YVR"
+  }, {
+    "airline": "AC",
+    "number": "560",
+    "departureTimestamp": "May 4 2016 6:15AM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "May 4 2016 8:45AM",
+    "arrivalAirport": "SFO",
+    "plane": "A319-100"
+  }, {
+    "airline": "AC",
+    "number": "5867",
+    "operatingAirline": "UA",
+    "operatingNumber": "1134",
+    "departureTimestamp": "May 8 2016 9:12PM",
+    "departureAirport": "SFO",
+    "arrivalTimestamp": "May 8 2016 11:27PM",
+    "arrivalAirport": "YVR",
+    "plane": "A320"
+  }, {
+    "airline": "UA",
+    "number": "246",
+    "departureTimestamp": "Jul 7 2016 9:25AM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Jul 7 2016 3:13PM",
+    "arrivalAirport": "ORD"
+  }, {
+    "airline": "UA",
+    "number": "597",
+    "departureTimestamp": "Jul 7 2016 6:08PM",
+    "departureAirport": "ORD",
+    "arrivalTimestamp": "Jul 7 2016 8:52PM",
+    "arrivalAirport": "BWI"
+  }, {
+    "airline": "UA",
+    "number": "395",
+    "departureTimestamp": "Jul 11 2016 11:35AM",
+    "departureAirport": "BWI",
+    "arrivalTimestamp": "Jul 11 2016 12:10AM",
+    "arrivalAirport": "ORD"
+  }, {
+    "airline": "UA",
+    "number": "1180",
+    "departureTimestamp": "Jul 11 2016 3:54PM",
+    "departureAirport": "ORD",
+    "arrivalTimestamp": "Jul 11 2016 6:06PM",
+    "arrivalAirport": "YVR"
+  }, {
+    "airline": "AA",
+    "number": "282",
+    "departureTimestamp": "Aug 27 2016 6:55AM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Aug 27 2016 12:46PM",
+    "arrivalAirport": "DFW"
+  }, {
+    "airline": "AA",
+    "number": "1381",
+    "departureTimestamp": "Aug 27 2016 6:24PM",
+    "departureAirport": "DFW",
+    "arrivalTimestamp": "Aug 27 2016 9:31PM",
+    "arrivalAirport": "CMH"
+  }, {
+    "airline": "AA",
+    "number": "449",
+    "departureTimestamp": "Aug 31 2016 6:38PM",
+    "departureAirport": "CMH",
+    "arrivalTimestamp": "Aug 31 2016 7:33PM",
+    "arrivalAirport": "PHX"
+  }, {
+    "airline": "AA",
+    "number": "504",
+    "departureTimestamp": "Aug 31 2016 8:12PM",
+    "departureAirport": "PHX",
+    "arrivalTimestamp": "Aug 31 2016 11:22PM",
+    "arrivalAirport": "YVR"
+  }, {
+    "airline": "AS",
+    "number": "2267",
+    "departureTimestamp": "Oct 9 2016 9:09AM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Oct 9 2016 9:56AM",
+    "arrivalAirport": "SEA"
+  }, {
+    "airline": "AS",
+    "number": "2242",
+    "departureTimestamp": "Oct 11 2016 6:24PM",
+    "departureAirport": "SEA",
+    "arrivalTimestamp": "Oct 11 2016 7:06PM",
+    "arrivalAirport": "YVR"
+  }, {
+    "airline": "AC",
+    "number": "5008",
+    "operatingAirline": "UA",
+    "operatingNumber": "595",
+    "departureTimestamp": "Jan 5 2017 12:45PM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Jan 5 2017 3:06PM",
+    "arrivalAirport": "SFO",
+    "plane": "A320"
+  }, {
+    "airline": "AC",
+    "number": "569",
+    "departureTimestamp": "Apr 30 2017 6:35PM",
+    "departureAirport": "SFO",
+    "arrivalTimestamp": "Apr 30 2017 8:57PM",
+    "arrivalAirport": "YVR",
+    "plane": "A319-100"
+  }, {
+    "airline": "AS",
+    "number": "2045",
+    "departureTimestamp": "May 14 2017 7:20PM",
+    "departureAirport": "SEA",
+    "arrivalTimestamp": "May 14 2017 8:00PM",
+    "arrivalAirport": "PDX"
+  }, {
+    "airline": "AC",
+    "number": "8126",
+    "departureTimestamp": "May 17 2017 6:15PM",
+    "departureAirport": "PDX",
+    "arrivalTimestamp": "May 17 2017 7:24PM",
+    "arrivalAirport": "YVR",
+    "plane": "Q400"
+  }, {
+    "airline": "UA",
+    "number": "545",
+    "departureTimestamp": "May 19 2017 7:44AM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "May 19 2017 11:34AM",
+    "arrivalAirport": "DEN",
+    "plane": "737-900"
+  }, {
+    "airline": "UA",
+    "number": "596",
+    "departureTimestamp": "May 19 2017 12:40PM",
+    "departureAirport": "DEN",
+    "arrivalTimestamp": "May 19 2017 6:25PM",
+    "arrivalAirport": "LGA",
+    "plane": "A320"
+  }, {
+    "airline": "AC",
+    "number": "7605",
+    "departureTimestamp": "Jun 30 2017 9:35PM",
+    "departureAirport": "EWR",
+    "arrivalTimestamp": "Jun 30 2017 11:04PM",
+    "arrivalAirport": "YYZ",
+    "plane": "E175"
+  }, {
+    "airline": "AC",
+    "number": "7658",
+    "departureTimestamp": "Jul 3 2017 7:35PM",
+    "departureAirport": "YYZ",
+    "arrivalTimestamp": "Jul 3 2017 9:01PM",
+    "arrivalAirport": "EWR",
+    "plane": "E175"
+  }, {
+    "airline": "UA",
+    "number": "3530",
+    "departureTimestamp": "Jul 21 2017 9:59PM",
+    "departureAirport": "EWR",
+    "arrivalTimestamp": "Jul 21 2017 11:58PM",
+    "arrivalAirport": "DTW",
+    "plane": "E175"
+  }, {
+    "airline": "UA",
+    "number": "3527",
+    "departureTimestamp": "Jul 23 2017 6:58PM",
+    "departureAirport": "DTW",
+    "arrivalTimestamp": "Jul 23 2017 8:43PM",
+    "arrivalAirport": "EWR",
+    "plane": "E170"
+  }, {
+    "airline": "UA",
+    "number": "745",
+    "departureTimestamp": "Aug 22 2017 2:30PM",
+    "departureAirport": "LGA",
+    "arrivalTimestamp": "Aug 22 2017 5:04PM",
+    "arrivalAirport": "DEN",
+    "plane": "A320"
+  }, {
+    "airline": "UA",
+    "number": "829",
+    "departureTimestamp": "Aug 22 2017 6:55PM",
+    "departureAirport": "DEN",
+    "arrivalTimestamp": "Aug 22 2017 8:50PM",
+    "arrivalAirport": "YVR",
+    "plane": "A319"
+  }, {
+    "airline": "AC",
+    "number": "8099",
+    "departureTimestamp": "Oct 4 2017 5:40PM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Oct 4 2017 6:35PM",
+    "arrivalAirport": "SEA",
+    "plane": "Q400"
+  }, {
+    "airline": "AC",
+    "number": "8084",
+    "departureTimestamp": "Oct 5 2017 9:25PM",
+    "departureAirport": "SEA",
+    "arrivalTimestamp": "Oct 5 2017 10:19PM",
+    "arrivalAirport": "YVR",
+    "plane": "Q400"
+  }, {
+    "airline": "DL",
+    "number": "4826",
+    "departureTimestamp": "Nov 15 2017 3:15PM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Nov 15 2017 4:19PM",
+    "arrivalAirport": "SEA",
+    "plane": "CRJ-700"
+  }, {
+    "airline": "DL",
+    "number": "5715",
+    "departureTimestamp": "Nov 17 2017 5:05PM",
+    "departureAirport": "SEA",
+    "arrivalTimestamp": "Nov 17 2017 6:13PM",
+    "arrivalAirport": "YVR",
+    "plane": "E175"
+  }, {
+    "airline": "WS",
+    "number": "1702",
+    "departureTimestamp": "Feb 18 2018 8:05PM",
+    "departureAirport": "YVR",
+    "arrivalTimestamp": "Feb 18 2018 10:50PM",
+    "arrivalAirport": "LAX",
+    "plane": "737-800"
+  }, {
+    "airline": "AC",
+    "number": "557",
+    "departureTimestamp": "Feb 23 2018 5:55PM",
+    "departureAirport": "LAX",
+    "arrivalTimestamp": "Feb 23 2018 8:43PM",
+    "arrivalAirport": "YVR",
+    "plane": "A320-200"
+  }
+]

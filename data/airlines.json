@@ -1,0 +1,23 @@
+{
+  "UA": {
+    "fullName": "United Airlines"
+  },
+  "AS": {
+    "fullName": "Alaska Airlines"
+  },
+  "AC": {
+    "fullName": "Air Canada"
+  },
+  "DL": {
+    "fullName": "Delta Air Lines"
+  },
+  "WS": {
+    "fullName": "WestJet"
+  },
+  "AA": {
+    "fullName": "American Airlines"
+  },
+  "OZ": {
+    "fullName": "Asiana Airlines"
+  }
+}
