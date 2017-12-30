@@ -140,7 +140,7 @@ function animateCircles(timestamp) {
 
 function flightTemplate(flight) {
   const t = document.querySelector('.js-flight-template');
-  t.content.querySelector('.flight').textContent = `${flight.airline} ${flight.number} ${flight.departureAirport} to ${flight.arrivalAirport} ${flight.plane ? ' on a ' + flight.plane : ''}`;
+  t.content.querySelector('.flight').textContent = `${flight.airline} ${flight.number} ${flight.departureAirport} to ${flight.arrivalAirport} ${flight.plane ? 'on a ' + flight.plane : ''}`;
   return document.importNode(t.content, true);
 }
 
