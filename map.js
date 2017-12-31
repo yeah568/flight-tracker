@@ -128,9 +128,8 @@ function animateCircles(timestamp) {
   const offset = ((timestamp - start) % interval) / interval * 100;
 
   pathPolylines.forEach(line => {
-    let icons = line.get('icons');
-    icons[0].offset = offset + '%';
-    line.set('icons', icons);
+    line.icons[0].offset = offset + '%';
+    line.notify('icons');
   });
 
   window.requestAnimationFrame(animateCircles);
